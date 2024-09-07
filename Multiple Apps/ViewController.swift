@@ -62,7 +62,7 @@ extension ViewController: UICollectionViewDelegate {
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        navigationController?.pushViewController(StopwatchViewController(), animated: false)
+        navigationController?.pushViewController(BMICalculatorViewController(), animated: false)
     }
 }
 

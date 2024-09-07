@@ -17,6 +17,8 @@
 		DCDE56822C89DB3000A00D30 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE56812C89DB3000A00D30 /* Configurable.swift */; };
 		DCDE56872C8B045C00A00D30 /* StopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE56862C8B045C00A00D30 /* StopwatchViewController.swift */; };
 		DCDE56892C8B724800A00D30 /* BMICalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE56882C8B724800A00D30 /* BMICalculatorViewController.swift */; };
+		DCDE568B2C8B733D00A00D30 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE568A2C8B733D00A00D30 /* BMI.swift */; };
+		DCDE568D2C8B738100A00D30 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE568C2C8B738100A00D30 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		DCDE56812C89DB3000A00D30 /* Configurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
 		DCDE56862C8B045C00A00D30 /* StopwatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchViewController.swift; sourceTree = "<group>"; };
 		DCDE56882C8B724800A00D30 /* BMICalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculatorViewController.swift; sourceTree = "<group>"; };
+		DCDE568A2C8B733D00A00D30 /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
+		DCDE568C2C8B738100A00D30 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 				DCDE56842C8AEF1700A00D30 /* Supporting */,
 				DCDE56862C8B045C00A00D30 /* StopwatchViewController.swift */,
 				DCDE56882C8B724800A00D30 /* BMICalculatorViewController.swift */,
+				DCDE568A2C8B733D00A00D30 /* BMI.swift */,
+				DCDE568C2C8B738100A00D30 /* ResultViewController.swift */,
 			);
 			path = "Multiple Apps";
 			sourceTree = "<group>";
@@ -178,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCDE568B2C8B733D00A00D30 /* BMI.swift in Sources */,
 				DCDE56872C8B045C00A00D30 /* StopwatchViewController.swift in Sources */,
 				DCDE56892C8B724800A00D30 /* BMICalculatorViewController.swift in Sources */,
 				DCDE56822C89DB3000A00D30 /* Configurable.swift in Sources */,
@@ -185,6 +192,7 @@
 				DCDE56682C89833400A00D30 /* AppDelegate.swift in Sources */,
 				DCDE567F2C898C5300A00D30 /* CollectionViewCell.swift in Sources */,
 				DCDE566A2C89833400A00D30 /* SceneDelegate.swift in Sources */,
+				DCDE568D2C8B738100A00D30 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
