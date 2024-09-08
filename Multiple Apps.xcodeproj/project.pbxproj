@@ -72,7 +72,7 @@
 			children = (
 				DCDE56802C89DB1900A00D30 /* Protocols */,
 				DCDE56852C8AEF3700A00D30 /* Cells */,
-				DCDE566B2C89833400A00D30 /* ViewController.swift */,
+				DCDE56932C8E2B9200A00D30 /* Controllers */,
 				DCDE568E2C8C51DA00A00D30 /* BMI app */,
 				DCDE56912C8E2A3700A00D30 /* Stopwatch */,
 				DCDE56842C8AEF1700A00D30 /* Supporting */,
@@ -125,6 +125,14 @@
 				DCDE568F2C8C7EA700A00D30 /* Stopwatch.swift */,
 			);
 			path = Stopwatch;
+			sourceTree = "<group>";
+		};
+		DCDE56932C8E2B9200A00D30 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DCDE566B2C89833400A00D30 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
