@@ -115,6 +115,4 @@ final class BMICalculatorViewController: UIViewController {
         resultVC.bmi = bmi
         self.present(resultVC, animated: true, completion: nil)
     }
-    
-    
 }

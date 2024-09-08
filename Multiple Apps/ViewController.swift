@@ -18,7 +18,7 @@ final class ViewController: UIViewController {
     
     // MARK: - Properties
     
-    private let appsName = ["Stopwatch", "BMI Calculator", "Weather", "Stopwatch", "BMI Calculator", "Weather", "Stopwatch", "BMI Calculator", "Weather", "Stopwatch"]
+    private let appsName = ["Stopwatch", "BMI Calculator"]
     
     // MARK: - Lifecycle
     
@@ -54,7 +54,7 @@ extension ViewController: UICollectionViewDataSource {
 extension ViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CollectionViewCell
-        let viewModel = CollectionViewCell.ViewModel(title: appsName[indexPath.row])
+        let viewModel = CollectionViewCell.ViewModel(title: appsName[indexPath.row % 2])
         cell.configure(with: viewModel)
         cell.backgroundColor = .systemMint
         cell.layer.cornerRadius = 10
@@ -62,7 +62,11 @@ extension ViewController: UICollectionViewDelegate {
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        navigationController?.pushViewController(BMICalculatorViewController(), animated: false)
+        if indexPath.row % 2 == 0 {
+            navigationController?.pushViewController(StopwatchViewController(), animated: false)
+        } else {
+            navigationController?.pushViewController(BMICalculatorViewController(), animated: true)
+        }
     }
 }
 
